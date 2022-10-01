@@ -1,182 +1,136 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Table</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Table</title>
-</head>
-
-<body>
-	<table class="table">
-		<caption>Успеваемость</caption>
-		<thead>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-				<th>7</th>
-				<th>8</th>
-				<th>9</th>
-				<th>10</th>
-				<th>11</th>
-				<th>12</th>
-				<th>13</th>
-				<th>14</th>
-				<th>15</th>
-			</tr>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-				<th>7</th>
-				<th>8</th>
-				<th>9</th>
-				<th>10</th>
-				<th>11</th>
-				<th>12</th>
-				<th>13</th>
-				<th>14</th>
-				<th>15</th>
-			</tr>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-				<th>7</th>
-				<th>8</th>
-				<th>9</th>
-				<th>10</th>
-				<th>11</th>
-				<th>12</th>
-				<th>13</th>
-				<th>14</th>
-				<th>15</th>
-			</tr>
-		</thead>
-		<tbody>
-			<!-- 1 ряд -->
-			<tr>
-				<td rowspan="2">FB</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-			</tr>
-			<!-- 2 ряд -->
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<!-- <td>1</td> -->
-			</tr>
-			<!-- 3 ряд -->
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-			</tr>
-			<!-- 4 ряд -->
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-			</tr>
-			<!-- 5 ряд -->
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="4" bgcolor="gold">Итого:</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-				<!-- <td>1</td> -->
-				<!-- <td>1</td> -->
-				<!-- <td>1</td> -->
-				<!-- <td>1</td> -->
-			</tr>
-		</tfoot>
-	</table>
-
-</body>
-
+  <body>
+    <table class="table">
+      <caption>
+        Успеваемость
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="4" rowspan="3">Аудитория</th>
+          <th colspan="10">Лекции</th>
+          <th rowspan="2" colspan="2">Сумма</th>
+        </tr>
+        <tr>
+          <th colspan="5">html</th>
+          <th colspan="5">css</th>
+        </tr>
+        <tr>
+          <th>№1</th>
+          <th>№2</th>
+          <th>№3</th>
+          <th>№4</th>
+          <th>№5</th>
+          <th>№1</th>
+          <th>№2</th>
+          <th>№3</th>
+          <th>№4</th>
+          <th>№5</th>
+          <th>Общая</th>
+          <th>по сетям</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">FB</td>
+          <td rowspan="2">2</td>
+          <td colspan="2">Иванов</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="2"></td>
+        </tr>
+        <tr>
+          <td colspan="2">Петров</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="3">YT</td>
+          <td rowspan="3">3</td>
+          <td colspan="2">Лебедев</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="2">Уткин</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2">Сидоров</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" bgcolor="gold">Итого:</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
